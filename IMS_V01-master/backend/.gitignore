@@ -1,0 +1,20 @@
+# dependencies & build output
+/node_modules
+/dist
+/coverage
+*.tsbuildinfo
+
+# secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# generated / uploaded files
+/storage/invoices/*
+/storage/documents/*
+!/storage/**/.gitkeep
+
+# logs & OS files
+*.log
+.DS_Store
+Thumbs.db
